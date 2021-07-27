@@ -15,7 +15,7 @@ var userName = readlineSync.question("What is Your Name: ")
 var greetUser = "Welcome " + userName
 console.log(greetUser)
 console.log(chalk.greenBright('-----------------------------------'))
-console.log(chalk.blueBright("Let's Play A Game------------- How Much You Know About Avengers"))
+console.log(chalk.blueBright("Let's Play A Game------------- How Much You Know About varun"))
 console.log(chalk.greenBright('-----------------------------------'))
 // // Asking permission if want to play
 // var choice = readlineSync.question("Do you want to Play The Quiz: ")
