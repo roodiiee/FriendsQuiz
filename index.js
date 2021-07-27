@@ -40,49 +40,42 @@ function play(question, answer) {
 
 // Questions
 var questions = [{
-    question: `Who is the Metal-Clad Hero ?
-    a. Ironman
-    b. Hulk
-    c. Natasha
-    d. Thor \n
+    question: `Is My name is Varun ?
+    a. Yes
+    b. No \n
     Given Your Answer `,
-    answer: "a",
+    answer: "a" || "yes" || "Yes",
 }, 
 {
-    question: `Where does Rocket Raccoon spend most of his time?
-    a. On Earth
-    b. In Space
-    c. Under the Sea
-    d. In Rubbish Bins \n
+    question: `When Is My Birthday celebrated??
+    a. In the month of July 
+    b. In the month of December \n
     Given Your Answer `,
     answer: "b",
 },
 {
-    question: `What is the strongest metal in the Marvel Universe?
-    a. Frelunium
-    b. veryStrongium
-    c. stretchium
-    d. vibranium \n
+    question: `Do I Like Mathematics whether it was in Engineering Or In HighSchool/Intermediate??
+    a. No
+    b. Yes
+    c. MayBe
     Given Your Answer `,
-    answer: "d",
+    answer: "a" || "b" || "MayBe",
 }, 
 {
-    question: `Vision is a…what?
-    a. Alien
-    b. Ghost
-    c. Android 
-    d. Famous Artist \n
+    question: `What I like to do most??
+    a. Watching Youtube
+    b. Programming
+    c. Travelling
+    d. None \n
     Given Your Answer `,
     answer: "a",
 }, 
 {
-    question: `Who is the leader of S.H.I.E.L.D?
-    a. Nick Fury
-    b. Tony Stark
-    c. Bruce Banner
-    d. Diana Prince \n
+    question: `Did I make this Quiz by copy paste or by own?
+    a. Copy Paste
+    b. By Own \n
     Given Your Answer `,
-    answer: "a",
+    answer: "b",
 }]
 
 // Loop to check all 
